@@ -8,7 +8,7 @@ internal class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
-        var dbClient = new MongoClient("mongodb+srv://successfulindian147:HRt2goC40DfOA6u6@cluster0.aeddhlk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+        var dbClient = new MongoClient("");
 
         //var dbList = dbClient.ListDatabases().ToList();
         //Console.WriteLine("The list of databases are : ");
